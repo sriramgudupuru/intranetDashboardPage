@@ -1,0 +1,526 @@
+.parentContainer {
+  display: grid;
+  grid-template: 45px auto / 233px auto;
+  background: #edf7ff;
+  padding: 5px 25px 5px 5px;
+  column-gap: 10px;
+  /* margin-top: 0.2rem;
+  margin-left: 2px;
+  margin-right: 10px; */
+}
+
+.oceanBlue {
+  /* background: #edf7ff; */
+  /* margin: 10px; */
+  background: #edf7ff;
+
+  /* padding: 5px 20px 0 5px; */
+}
+
+.sideBar {
+  grid-area: 1 / 1 / 3 /2;
+  /* width: 33vh; */
+  font-size: 1.2rem;
+  /* display: flex; */
+  background: #ffffff;
+  border-radius: 10px;
+  margin-top: 1px;
+  /* color: #8b8b8b; */
+}
+
+.sideLogos {
+  transform: translate(4px, 0px);
+}
+.org {
+  transform: translate(12px, 6px);
+  /* padding: 5px; */
+}
+.sideBar div {
+  padding: 5px;
+}
+.sideBar .font {
+}
+
+.cuate {
+  position: relative;
+  top: 100px;
+}
+/* .sideBar .cuate {
+  left: 30vh;
+  background-image: url("../../public/images/cuate.png");
+  position: relative;
+  top: -90px;
+} */
+/* .cuateBg {
+  position: relative;
+  width: 174px;
+  height: 172px;
+  top: -20vh;
+  background: #d5ecff;
+  border-radius: 15px;
+  z-index: -1;
+} */
+
+.HS {
+  position: relative;
+  top: 95px;
+  background: #0075ff;
+  border-radius: 10px;
+  padding: 5px;
+  border-width: 0px;
+  left: 65px;
+  color: white;
+  font-weight: 500;
+}
+.logout {
+  position: relative;
+  top: 140px;
+  left: 60px;
+}
+.Name {
+  /* transform: translate(20%); */
+  text-align: center;
+  font-size: 16px;
+  padding-top: 5px;
+}
+.Role {
+  /* transform: translate(10%); */
+  text-align: center;
+  font-size: 14px;
+}
+.topNav {
+  grid-area: 1 / 2 / 2 / 3;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1px;
+  /* margin-top: 16px; */
+}
+
+.Main {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.topNav .search {
+  width: 440px;
+  height: 45px;
+  border-style: none;
+  border-color: #ffffff;
+  margin-right: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  background-image: url("../../public/images/search.png");
+  background-repeat: no-repeat;
+  background-position: start;
+  background-position: 10px 9px;
+  font-size: 1.3rem;
+  padding-left: 50px;
+}
+
+.topNav .bell {
+  width: 45px;
+  height: 45px;
+}
+
+.topNav .profile {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  gap: -100px;
+  width: 172px;
+  height: 45px;
+  margin-left: 12px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.profile .ProfilePhoto {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  display: inline-block;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+.duration {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  /* display: absolute; */
+  /* margin-left: 129vh; */
+  display: inline-block;
+  /* transform: translate(50%, 50%); */
+  /* line-height: 19px; */
+  text-align: center;
+  width: 230px;
+  height: 45px;
+  font-weight: 400;
+  color: #4f4f4f;
+  background-color: #ffffff;
+  /* padding: 3px; */
+  border-radius: 5px;
+  background-image: url("../../public/calendar.png");
+  background-repeat: no-repeat;
+  background-position: 10px 12px;
+  padding: 15px;
+
+  padding-right: 15px;
+  font-size: 16px;
+  /* text-decoration: ; */
+  text-align: right;
+  color: #4f4f4f;
+  border-radius: 10px;
+}
+
+.section1 {
+  /* display: flexbox; not working
+  justify-content: space-between; */
+  padding-top: 15px;
+}
+
+.list li {
+  display: inline;
+  padding: 5px;
+}
+.empInline {
+  display: inline-block;
+}
+.employeeCards {
+  background-color: #ffffff;
+  width: 760px;
+  height: 340px;
+  margin-top: 13px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.empCards {
+  display: grid;
+  grid-template-columns: 140px 140px 140px 140px 140px;
+  grid-template-rows: 120px 120px;
+  gap: 10px;
+  margin-left: 10px;
+  padding-top: 22px;
+}
+
+/* .section2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 80px;
+} */
+.rightSide {
+  background-color: #ffffff;
+}
+
+.main {
+  padding-top: 45px;
+  margin-left: 15px;
+}
+
+.EmpCard {
+  background-image: url("../../public/images/threeDots.png");
+  background-repeat: no-repeat;
+  background-position: 90% 10%;
+  background-color: #d5ecff;
+  border-radius: 15px;
+}
+
+.EmployeePic {
+  border: 3px solid;
+  border-bottom-color: rgb(9, 193, 249);
+  border-left-color: rgb(9, 193, 249);
+  border-right-color: rgb(9, 193, 249);
+  height: 58px;
+  width: 58px;
+  /* border-radius: 300px; */
+  border-radius: 50%;
+  margin-left: 40px;
+  margin-top: 15px;
+  transform: rotate(45deg);
+  /* transform: translate(60%, 38%); */
+  /* background-color: #d9d9d9; */
+
+  color: #d9d9d9;
+  /* padding: 20px; */
+}
+
+.innerEP {
+  margin-top: 3px;
+  margin-left: 2px;
+  /* border: solid; */
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  transform: rotate(90);
+}
+
+.Events {
+  position: absolute;
+
+  display: inline-block;
+  width: 340px;
+  height: 340px;
+  margin-left: 60px;
+  background-color: #ffffff;
+  margin-top: 13px;
+  border-radius: 20px;
+}
+
+.EventsGrid {
+  margin-left: 15px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 6px 150px;
+  gap: 15px;
+  /* column-gap: 20px; */
+}
+.EventsGrid h4 {
+  /* width: 180px; */
+  /* margin-top: 2px; */
+}
+
+.EventsGrid h5 {
+  display: block;
+  position: absolute;
+  bottom: 3px;
+}
+
+.posRel {
+  position: relative;
+}
+.schedule {
+  width: 6px;
+  height: 80px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.schedule1 {
+  background: #2e71c3;
+}
+
+.schedule2 {
+  background: #9c2ec3;
+}
+
+.schedule3 {
+  background: #ffc727;
+}
+.proj h3 {
+  display: inline-block;
+}
+
+.proj {
+  display: relative;
+  margin-top: 40px;
+  height: 40px;
+  /* height: 0px; */
+}
+.proj p {
+  display: inline-block;
+  position: absolute;
+  right: 68vh;
+  color: #2e71c3;
+}
+
+.projInfo {
+  /* margin-top: -10px; */
+  padding: 10px 10px 0px 10px;
+
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto;
+  background-color: #ffffff;
+}
+
+.proGrid1 {
+  position: relative;
+}
+
+.Psquare {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+
+.duration2 {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  /* display: absolute; */
+  /* margin-left: 129vh; */
+  /* display: inline-block; */
+  /* transform: translate(50%, 50%); */
+  /* line-height: 19px; */
+  /* text-align: center; */
+  width: 230px;
+  height: 45px;
+  font-weight: 400;
+  color: #4f4f4f;
+  background-color: #ffffff;
+  /* padding: 3px; */
+  border-radius: 5px;
+  background-image: url("../../public/calendar.png");
+  background-repeat: no-repeat;
+  background-position: 10px 12px;
+  padding: 15px;
+
+  /* padding-right: 15px; */
+  font-size: 16px;
+  /* text-decoration: ; */
+  text-align: right;
+  color: #4f4f4f;
+  border-radius: 10px;
+}
+
+.proNGrid {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.Assignees {
+  position: relative;
+}
+
+.AssiCir {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* background: #d9d9d9; */
+  /* text-align: center; */
+}
+
+/* .cir1 {
+  z-index: ;
+  background: #d9d9d9;
+} */
+.cir1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #d9d9d9;
+  z-index: 5;
+}
+.cir2 {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  background: #919191;
+  z-index: 4;
+}
+.cir3 {
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  background: #616060;
+  z-index: 3;
+}
+.cir4 {
+  position: absolute;
+  top: 0px;
+  left: 60px;
+  background: black;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.7rem;
+  z-index: 2;
+}
+
+.empty {
+  position: absolute;
+  display: inline-block;
+  width: 340px;
+  height: 180px;
+  left: 151vh;
+  bottom: -5px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  /* position: absolute; */
+}
+
+.ForEmptyInline {
+  display: inline-block;
+  position: relative;
+}
+
+.RInvisi a,
+.OrgInvisi a {
+  display: block;
+  padding: 5px;
+}
+
+.RInvisi,
+.OrgInvisi {
+  position: relative;
+  left: 22px;
+}
+
+.Org {
+  position: relative;
+  bottom: 27px;
+  right: 10px;
+  /* left: -10px; */
+  /* height:5px; */
+}
+
+.RInvisi img,
+.OrgInvisi img {
+  position: relative;
+  right: 8px;
+}
+
+.arrow {
+}
+.lk {
+  border: none;
+}
+
+.linkBorder {
+  border-radius: 10px;
+  margin-left: 3px;
+  margin-right: 30px;
+  /* position: relative; */
+  /* left: 10px; */
+}
+.linkBorder2 {
+  border-radius: 10px;
+  width: 160px;
+  /* margin-left: 50px; */
+  /* padding-left: 100px; */
+  /* margin-left: 3px; */
+  /* margin-right: 30px; */
+  /* position: relative; */
+  /* left: 10px; */
+}
+
+.increaseBordR {
+  /* display: inline-block; */
+  /* height: 200px; */
+  /* width: 100px; */
+  /* width: 30px !important; */
+  /* padding: 10px; */
+}
+
+.rec {
+  /* display: block; */
+  position: relative;
+  right: 2.5px;
+  top: 2px;
+  /* padding-left: 5px; */
+  padding-right: 20px;
+  /* width: 70px; */
+  /* border-radius: 10px; */
+}
+
+.linkHover {
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+.leftContainer {
+  padding: 38px;
+  width: 50vw;
+  background-color: #0077b6;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* justify-content: flex-start; */
+}
+.leftContainer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.rightContainer {
+  padding: 38px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rightContainer h1 {
+  color: #0077b6;
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 56px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.rightContainer p {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+
+  color: #000000;
+}
+.leftImage {
+  scale: 0.8;
+  width: 50vw;
+}
